@@ -3,26 +3,33 @@
     min-height: 80vh;
 
     &__content {
-        display: flex;  
+        display: flex;
         justify-content: center;
-        align-items: center;      
+        align-items: center;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
 
         &_story {
             text-align: center;
-            
-            h1 {
-                
-            }
 
-            p{
+            h1 {}
+
+            p {
                 padding: 20px;
             }
         }
 
-                &_serie {
+        &_serie {
             img {
+                width: 100%;
                 max-width: 600px;
                 border-radius: 10px;
+
+                @media (max-width: 768px) {
+                    margin-top: 20px;
+                }
             }
         }
     }
