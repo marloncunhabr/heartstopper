@@ -1,0 +1,31 @@
+@use 'variaveis';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: variaveis.$corDeFundoSecundario;
+
+
+    .header__content {
+        img {
+            margin-left: 30px;
+            padding: 10px;
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+
+    .header__content_links {
+        margin-right: 30px;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            li {
+                margin-right: 20px;
+            }
+        }
+    }
+}
