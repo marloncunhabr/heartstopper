@@ -13,11 +13,22 @@
 
         &_story {
             text-align: center;
+            text-align: center;
+            width: 100%;
+            padding: 50px;
 
-            h1 {}
+            @media (max-width: 768px) {
+                padding: 20px;
+            }
 
             p {
-                padding: 20px;
+                @media (max-width: 768px) {
+                    margin-top: 20px;
+                }  
+            }
+
+            button {
+                margin-top: 20px;
             }
         }
 

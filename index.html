@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Jost:wght@200;400&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
@@ -18,27 +20,20 @@
             <img src="./dist/img/logo/heartstopper-logobranco.png" alt="heartstopper">
         </div>
         <div class="header__content_links">
-            <ul>
-                <li>
-                    <a class="destaque-text" href="#">Início</a>
-                </li>
-                <li>
-                    <a class="destaque-text" href="#">Livros</a>
-                </li>
-                <li>
-                    <a class="destaque-text" href="#">Série</a>
-                </li>
-                <li>
-                    <a class="destaque-text" href="#">Personagens</a>
-                </li>
-                <li>
-                    <a class="destaque-text" href="#">Novidades</a>
-                </li>
-            </ul>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#hero"><img src="./src/img/icons/house.svg" alt="home"></a></li>
+                    <li><a href="#livros"><img src="./src/img/icons/book.svg" alt="home"></a></li>
+                    <li><a href="#netflix"><img src="./src/img/icons/tv.svg" alt="home"></a></li>
+                    <li><a href="#personagens"><img src="./src/img/icons/person-bounding-box.svg" alt="home"></a></li>
+                    <li><a href="#noticias"><img src="./src/img/icons/newspaper.svg" alt="home"></a></li>
+                </ul>
+            </nav>
         </div>
     </section>
 
-    <section class="hero">
+
+    <section id="hero" class="hero">
         <div class="hero__content">
             <img src="./dist/img/logo/heartstopper-logobranco.png" alt="heartstopper">
             <h1 class="title--big">
@@ -57,12 +52,11 @@
             </div>
         </div>
         <div class="hero__content__branding">
-            <img src="./dist/img/capasite/1.png" alt="turma heartstopper"
-                class="hero__content__branding__img">
+            <img src="./dist/img/capasite/1.png" alt="turma heartstopper" class="hero__content__branding__img">
         </div>
     </section>
 
-    <section class="livros">
+    <section id="livros" class="livros">
         <div class="livros__content">
             <div class="livros__content_books">
                 <img src="./dist/img/capasite/2.png" alt="Heartstopper livros">
@@ -84,7 +78,7 @@
         </div>
     </section>
 
-    <section class="netflix">
+    <section id="netflix" class="netflix">
         <div class="netflix__content">
             <div class="netflix__content_story">
                 <h1 class="title--big">
@@ -104,7 +98,7 @@
         </div>
     </section>
 
-    <section class="personagens">
+    <section id="personagens" class="personagens">
         <div class="personagens__content">
             <div class="personagens__content__personagens">
                 <img src="./dist/img/capasite/4.png">
@@ -123,7 +117,7 @@
         </div>
     </section>
 
-    <section class="noticias">
+    <section id="noticias" class="noticias">
         <div class="noticias__content">
             <div class="noticias__content__title">
                 <h2 class="title--big"> Novidades: </h2>
@@ -192,6 +186,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
